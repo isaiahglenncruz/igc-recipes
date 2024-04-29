@@ -1,4 +1,6 @@
-# odin-recipes
-odin project foundational item -
+# Isaiah Cruz's Cookbook
 
-main index page with links to recipes
+A compilation of my favorite recipes!
+
+Currently using this project as a sandbox for some web development 
+experimentation.
