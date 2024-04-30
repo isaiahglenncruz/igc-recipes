@@ -1,0 +1,23 @@
+body {
+    font-family: Helvetica;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section1 {
+    background-color: #e19e82;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left; /* Float divs to make them inline */
+    width: calc(100% - 20px);
+    border: 2px solid black;
+}
+
+.section1:last-child {
+    margin-right: 0; /* Remove right margin from the last div */
+}
