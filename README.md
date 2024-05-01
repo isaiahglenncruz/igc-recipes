@@ -3,4 +3,5 @@
 A compilation of my favorite recipes!
 
 Currently using this project as a sandbox for some web development 
-experimentation.
+experimentation. Will be adding more recipes in the future for my 
+own documentation and personal use!
