@@ -1,4 +1,4 @@
-# Isaiah Cruz's Cookbook
+# What I Eat on a Regular Basis!
 
 A compilation of my favorite recipes :)
 
