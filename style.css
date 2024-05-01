@@ -1,23 +1,60 @@
-body {
-    font-family: Helvetica;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
 }
 
-.container {
-    width: 60%;
-    margin: 0 auto;
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    line-height: 1.40;
+}
+
+ol, ul {
+    line-height: 1.40;
+}
+
 
 .section1 {
     background-color: #e19e82;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    float: left; /* Float divs to make them inline */
+    margin-left: auto;
+    margin-right: auto;
     width: calc(100% - 20px);
     border: 2px solid black;
+    width: 95%;
 }
 
-.section1:last-child {
-    margin-right: 0; /* Remove right margin from the last div */
+.recipeitem {
+    background-color: #A67B5B; 
+    padding: 20px; /* 30px padding */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+ 
+.container img {
+    margin: 10px; /* Add margin around images */
+}
+
+.container h3 {
+    align-items: left;
+}
+
